@@ -1,0 +1,17 @@
+<table>
+  <tr>
+    <th></th>
+    <th>login_path</th>
+    <th>foo.login_path</th>
+  </tr>
+  <tr>
+    <th>Expected</th>
+    <td>/sub_uri/login</td>
+    <td>/sub_uri/foo/login</td>
+  </tr>
+  <tr>
+    <th>Actual</th>
+    <td><%= login_path %></td>
+    <td><%= foo.login_path %></td>
+  </tr>
+</table>
